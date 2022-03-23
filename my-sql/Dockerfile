@@ -5,5 +5,5 @@ ENV MYSQL_DATABASE employees_db
 # Add the content of the sql-scripts/ directory to your image
 # All scripts in docker-entrypoint-initdb.d/ are automatically
 # executed during container startup
-COPY ./sql-script/ /docker-entrypoint-initdb.d/
+COPY ./sql-scripts/ /docker-entrypoint-initdb.d/
 
